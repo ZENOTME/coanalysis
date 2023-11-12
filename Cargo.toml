@@ -1,0 +1,13 @@
+[package]
+name = "coanalysis"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+arrow-cast = { version = "47.0.0", features = ["prettyprint"] }
+clap = { version = "4.4.7", features = ["derive"] }
+datafusion = "32.0.0"
+tokio = "1.34.0"
